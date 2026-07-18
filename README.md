@@ -8,6 +8,8 @@ How to run:
 5) We can able to see the messages in the console.
 
 => If anyone wants to see the messages in console.Use below commands
+```
   Command to create kafka topic: kafka-topics.bat --create --topic test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
   Command to create kafka producer: kafka-console-producer.bat --topic test --bootstrap-server localhost:9092
   command to create consumer: kafka-console-consumer.bat --topic test --from-beginning --bootstrap-server localhost:9092
+```
